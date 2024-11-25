@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @NotAayush7
+- 👀 I’m from Nepal🇳🇵
+- 🌱 I’m currently pursuing B.Tech CSE        from PDEU, Gujarat, India
+- You can contact me on instagram          k.aayush.7 
