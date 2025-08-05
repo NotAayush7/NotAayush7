@@ -1,48 +1,18 @@
 body {
-  background-color: #f0f8ff;
+  background-color: lightgray;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: dimgray;
   padding: 20px;
   max-width: 800px;
   margin: auto;
 }
 
-.marquee {
-  background-color: #007acc;
-  color: white;
-  font-size: 24px;
-  padding: 10px 0;
-  margin-bottom: 20px;
-}
-
-.section {
-  margin-bottom: 30px;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-.contact {
-  background-color: #d1e7dd;
-}
-
-.education {
-  background-color: #fde2e2;
-}
-
-.skills {
-  background-color: #fff3cd;
-}
-
-.projects {
-  background-color: #cfe2ff;
-}
-
 h2 {
-  margin-top: 0;
+  padding: 10px;
 }
 
 a {
-  color: #007acc;
+  color: dodgerblue;
   text-decoration: none;
 }
 
@@ -50,8 +20,137 @@ a:hover {
   text-decoration: underline;
 }
 
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid dodgerblue;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #555;
+  color: darkgray;
+}
+
+.marquee {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 24px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  background-color: lightsteelblue;
+  padding: 10px;body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  color: dimgray;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  padding: 10px;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid dodgerblue;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: steelblue;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: darkgray;
+}
+
+.marquee {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 24px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  background-color: lightsteelblue;
+  padding: 10px;
+  font-weight: bold;
+}
+
+  font-weight: bold;
 }
